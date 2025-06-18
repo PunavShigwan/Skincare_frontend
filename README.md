@@ -48,6 +48,6 @@ The landing page has been developed using **Next.js**, **React**, **Tailwind CSS
 | Desktop View | Mobile View |
 |--------------|-------------|
 | ![Desktop View](demo1.png) | ![Mobile View](mobile1.png) |
-| ![Desktop View](demo2.png.png) | ![Mobile View](mobile2.png) |
+| ![Desktop View](demo2.png) | ![Mobile View](mobile2.png) |
 
 
