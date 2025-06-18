@@ -41,23 +41,13 @@ The landing page has been developed using **Next.js**, **React**, **Tailwind CSS
 ---
 
 ## 📁 Folder Structure
-tiyaverma-sixnine/
-├── components/ # Reusable UI sections (Hero, BannerImage, BestSellingProducts, WhyUs, navbar)
-├── pages/ # Next.js routing files (index.js, _app.js, _document.js)
-├── public/ # All static assets and images
-├── styles/ # Tailwind CSS and global styles (globals.css)
-├── .gitignore # Files/folders to ignore during git push
-├── package.json # Project metadata and dependencies
-├── postcss.config.js # PostCSS setup for Tailwind
-├── tailwind.config.js # Tailwind customization config
-└── README.md # Project documentation
+<pre> ``` tiyaverma-sixnine/ ├── components/ # Reusable UI sections (Hero, BannerImage, BestSellingProducts, WhyUs, navbar) ├── pages/ # Next.js routing files (index.js, _app.js, _document.js) ├── public/ # All static assets and images ├── styles/ # Tailwind CSS and global styles (globals.css) ├── .gitignore # Files/folders to ignore during git push ├── package.json # Project metadata and dependencies ├── postcss.config.js # PostCSS setup for Tailwind ├── tailwind.config.js # Tailwind customization config └── README.md # Project documentation ``` </pre>
 
-## Some Screenshots
-## 📸 Screenshots
+## Some Screens
 
 | Desktop View | Mobile View |
 |--------------|-------------|
-| ![Desktop View](./public/demo1.png) | ![Mobile View](./public/mobile1.png) |
-| ![Desktop View](./public/demo2.png.png) | ![Mobile View](./public/mobile2.png) |
+| ![Desktop View](demo1.png) | ![Mobile View](mobile1.png) |
+| ![Desktop View](demo2.png.png) | ![Mobile View](mobile2.png) |
 
 
