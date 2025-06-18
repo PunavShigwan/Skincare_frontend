@@ -1,40 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+## Skincare Landing Page – Assignment Submission
 
-## Getting Started
+This repository contains a responsive and animated landing page built as part of a frontend development assignment. The project replicates a skincare brand's homepage based on the provided Figma design, focusing on elegant aesthetics, smooth transitions, and mobile-first responsiveness.
 
-First, run the development server:
+The landing page has been developed using **Next.js**, **React**, **Tailwind CSS**, and **GSAP**, ensuring both performance and modern UI/UX standards.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Project Objective
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- To create a pixel-perfect implementation of the Figma design  
+- Ensure seamless responsiveness across mobile, tablet, and desktop  
+- Integrate interactive UI elements with animations for enhanced user experience  
+- Maintain clean, scalable, and modular code  
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 🔗 Live Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+👉 [Click here to view the deployed website](https://sixnine-assignment-pi.vercel.app/)  
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- **Next.js** – React-based framework with built-in routing and optimization  
+- **React.js** – For building dynamic UI components  
+- **Tailwind CSS** – Utility-first CSS framework for styling and responsiveness  
+- **GSAP** – High-performance animations for modern web interfaces  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ✨ Key Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🌟 Smooth entry animation for the hero section (on page load)  
+- 🌟 Scroll-based word-by-word text reveal in introductory paragraph  
+- 🌟 Responsive layout across breakpoints (Mobile / Tablet / Desktop)  
+- 🌟 Interactive “Best Selling Products” section with animated buttons  
+- 🌟 Expandable FAQ section with smooth toggle transitions  
+- 🌟 Clean code structure with reusable components  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+---
+
+## 📁 Folder Structure
+tiyaverma-sixnine/
+├── components/ # Reusable UI sections (Hero, BannerImage, BestSellingProducts, WhyUs, navbar)
+├── pages/ # Next.js routing files (index.js, _app.js, _document.js)
+├── public/ # All static assets and images
+├── styles/ # Tailwind CSS and global styles (globals.css)
+├── .gitignore # Files/folders to ignore during git push
+├── package.json # Project metadata and dependencies
+├── postcss.config.js # PostCSS setup for Tailwind
+├── tailwind.config.js # Tailwind customization config
+└── README.md # Project documentation
+
+## Some Screenshots
+## 📸 Screenshots
+
+| Desktop View | Mobile View |
+|--------------|-------------|
+| ![Desktop View](./public/demo1.png) | ![Mobile View](./public/mobile1.png) |
+| ![Desktop View](./public/demo2.png.png) | ![Mobile View](./public/mobile2.png) |
+
+
