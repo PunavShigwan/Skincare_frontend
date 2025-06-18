@@ -43,7 +43,7 @@ The landing page has been developed using **Next.js**, **React**, **Tailwind CSS
 ## 📁 Folder Structure
 <pre> ``` tiyaverma-sixnine/ ├── components/ # Reusable UI sections (Hero, BannerImage, BestSellingProducts, WhyUs, navbar) ├── pages/ # Next.js routing files (index.js, _app.js, _document.js) ├── public/ # All static assets and images ├── styles/ # Tailwind CSS and global styles (globals.css) ├── .gitignore # Files/folders to ignore during git push ├── package.json # Project metadata and dependencies ├── postcss.config.js # PostCSS setup for Tailwind ├── tailwind.config.js # Tailwind customization config └── README.md # Project documentation ``` </pre>
 
-## Some Screens
+## Some Screenshots
 
 | Desktop View | Mobile View |
 |--------------|-------------|

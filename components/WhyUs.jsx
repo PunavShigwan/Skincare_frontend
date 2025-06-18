@@ -66,7 +66,7 @@ export default function WhyUs() {
             alt="Skincare Display"
             className="rounded-xl w-full object-cover shadow-lg hover:ring-4 hover:ring-[#2d3b36] transition-all duration-300"
           />
-          {/* Overlay box like headphone */}
+          {/* Overlay box */}
           <div className="absolute bottom-8 left-1/5 bg-white px-4 py-2 rounded-full flex items-center space-x-2 ">
             <img src="/award-svgrepo-com 1.svg" alt="Natural" className="w-6 h-6" />
             <span className="text-[#2d3b36] text-sm font-medium">Best Skincare Product Award Winning</span>

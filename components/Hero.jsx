@@ -89,7 +89,7 @@ export default function Hero() {
       <section className="px-8 py-12 md:py-20 bg-[#f1f4e3] text-center">
   <div className="max-w-5xl mx-auto text-[40px] md:text-[22px] leading-relaxed tracking-wide">
     
-    {/* Mixed Paragraph */}
+  
     <p className="font-inter font-normal text-[30px] leading-[78px] tracking-[-0.035em] text-[#2d3b36] text-center max-w-5xl mx-auto px-4">
 
       <span className="text-[#2d3b36] font-semibold">

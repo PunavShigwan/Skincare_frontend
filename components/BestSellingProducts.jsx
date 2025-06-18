@@ -33,7 +33,7 @@ export default function BestSellingProducts() {
       <div className="max-w-7xl mx-auto space-y-10">
         {/* Top Row: Bullet, Heading, Arrows */}
         <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
-          {/* Bullet */}
+          
           <div className="inline-flex items-center border border-[#2d3b36] px-5 py-2 rounded-full text-[#2d3b36] hover:bg-[#2d3b36] hover:text-white transition-all duration-300 text-base font-medium w-fit cursor-pointer">
             <span className="text-3xl font-bold mr-2">•</span> Best Selling Products
           </div>
@@ -99,7 +99,7 @@ export default function BestSellingProducts() {
           ))}
         </div>
       </div>
-      {/* Full-Width Image Banner Section */}
+      
 
     </section>
   );

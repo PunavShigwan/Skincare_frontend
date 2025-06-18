@@ -201,7 +201,7 @@ export default function BannerImage() {
 
       {/* Footer Section */}
       <footer className="bg-[#2d3b36] text-[#f1f4e3] mt-18 relative overflow-hidden min-h-[530px] w-full">
-        {/* Large faded 'SKINCARE' background */}
+        {/* Large faded SKINCARE background */}
         <div className="absolute bottom-2 left-0 w-full text-center pointer-events-none">
           <span className="text-[200px] sm:text-[150px] md:text-[280px] font-bold opacity-10 leading-none">
             SKINCARE
