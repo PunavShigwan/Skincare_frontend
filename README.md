@@ -17,7 +17,7 @@ The landing page has been developed using **Next.js**, **React**, **Tailwind CSS
 
 ## 🔗 Live Deployment
 
-👉 [Click here to view the deployed website]
+👉 [Click here to view the deployed website] skincare-frontend-delta.vercel.app
 
 
 ## 🛠️ Tech Stack Used
@@ -45,7 +45,7 @@ The landing page has been developed using **Next.js**, **React**, **Tailwind CSS
 
 ## Some Screenshots
 
-| Desktop View | Mobile View |
+| Desktop View 
 |--------------|-------------|
 | ![Desktop View](demo1.png) | 
 | ![Desktop View](demo2.png) | 
