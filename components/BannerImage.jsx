@@ -199,57 +199,57 @@ export default function BannerImage() {
         </div>
       </div>
 
-      {/* Footer Section */}
-      <footer className="bg-[#2d3b36] text-[#f1f4e3] mt-18 relative overflow-hidden min-h-[530px] w-full">
-        {/* Large faded SKINCARE background */}
-        <div className="absolute bottom-2 left-0 w-full text-center pointer-events-none">
-          <span className="text-[200px] sm:text-[150px] md:text-[280px] font-bold opacity-10 leading-none">
-            SKINCARE
+     {/* Footer Section */}
+<footer className="bg-[#2d3b36] text-[#f1f4e3] mt-18 relative overflow-hidden min-h-[700px] w-full">
+  {/* Large faded SKINCARE background */}
+  <div className="absolute bottom-2 left-0 w-full text-center pointer-events-none">
+    <span className="text-[200px] sm:text-[150px] md:text-[280px] font-bold opacity-10 leading-none">
+      SKINCARE
+    </span>
+  </div>
+
+  {/* Foreground content */}
+  <div className="relative max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10">
+    {/* Left Side */}
+    <div className="flex flex-col justify-between">
+      <p className="text-xl md:text-4xl font-medium mb-4">
+        Join the Skincare <br /> Community Now.
+      </p>
+      <div className="flex space-x-6 mb-4">
+        {["Facebook", "Instagram", "YouTube"].map((plat) => (
+          <span
+            key={plat}
+            className="cursor-pointer text-sm uppercase tracking-wide transition hover:underline hover:scale-105"
+          >
+            {plat}
           </span>
-        </div>
+        ))}
+      </div>
+    </div>
 
-        {/* Foreground content */}
-        <div className="relative max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10">
-          {/* Left Side */}
-          <div className="flex flex-col justify-between">
-            <p className="text-xl md:text-4xl font-medium mb-4">
-              Join the Skincare <br /> Community Now.
-            </p>
-            <div className="flex space-x-6 mb-4">
-              {["Facebook", "Instagram", "YouTube"].map((plat) => (
-                <span
-                  key={plat}
-                  className="cursor-pointer text-sm uppercase tracking-wide transition hover:underline hover:scale-105"
-                >
-                  {plat}
-                </span>
-              ))}
-            </div>
-          </div>
-
-          {/* Right Side */}
-          <div className="flex flex-col justify-between text-right">
-            <div>
-              <p className="text-sm md:text-3xl ">Get in Touch</p>
-              <p className="text-4xl font-semibold mt-2">contact.skincare.com</p>
-            </div>
-            <div className="mt-8 space-x-4 text-sm">
-              {[
-                "Terms of Service",
-                "Privacy Policy",
-                "Cookies Policy",
-              ].map((item, idx, arr) => (
-                <React.Fragment key={item}>
-                  <span className="cursor-pointer transition hover:underline hover:scale-105">
-                    {item}
-                  </span>
-                  {idx < arr.length - 1 && <span className="mx-1">|</span>}
-                </React.Fragment>
-              ))}
-            </div>
-          </div>
-        </div>
-      </footer>
+    {/* Right Side */}
+    <div className="flex flex-col justify-between text-right">
+      <div>
+        <p className="text-sm md:text-3xl ">Get in Touch</p>
+        <p className="text-4xl font-semibold mt-2">contact.skincare.com</p>
+      </div>
+      <div className="mt-8 space-x-4 text-sm">
+        {[
+          "Terms of Service",
+          "Privacy Policy",
+          "Cookies Policy",
+        ].map((item, idx, arr) => (
+          <React.Fragment key={item}>
+            <span className="cursor-pointer transition hover:underline hover:scale-105">
+              {item}
+            </span>
+            {idx < arr.length - 1 && <span className="mx-1">|</span>}
+          </React.Fragment>
+        ))}
+      </div>
+    </div>
+  </div>
+</footer>
     </section>
   );
 }

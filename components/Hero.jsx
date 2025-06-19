@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Image from "next/image";
+import { useEffect, useRef } from "react";
 
 export default function Hero() {
   const heroRef = useRef(null);
@@ -85,21 +85,16 @@ export default function Hero() {
           SHOP NOW
         </div>
       </div>
-
-      <section className="px-8 py-12 md:py-20 bg-[#f1f4e3] text-center">
-  <div className="max-w-5xl mx-auto text-[40px] md:text-[22px] leading-relaxed tracking-wide">
-    
-  
-    <p className="font-inter font-normal text-[30px] leading-[78px] tracking-[-0.035em] text-[#2d3b36] text-center max-w-5xl mx-auto px-4">
-
-      <span className="text-[#2d3b36] font-semibold">
-        Experience the ultimate in skincare with our expertly formulated products,
-        crafted to nourish, protect, and rejuvenate your skin. Combining the finest
-        natural ingredients with{" "}
+<section className="px-5 py-10 md:py-20 bg-[#f1f4e3] text-center relative -mt-8">
+  <div className="max-w-5xl mx-auto"> {/* Reduced from 1800px to more reasonable max-w-5xl */}
+    <p className="font-inter font-normal text-[39px] leading-[42px] tracking-[-0.035em] text-center mx-auto px-4" style={{ wordSpacing: '0.5em' }}>
+      <span className="text-[#000000]">
+        Experience the ultimate in skincare with our expertly formulated products, crafted to nourish, protect, and rejuvenate your skin. Combining the finest natural ingredients with&nbsp;
       </span>
-      advanced science, our collection ensures every skin type can achieve a radiant, healthy glow. Embrace your beauty with confidence every day. Experience the ultimate in skincare with our expertly formulated products, crafted to nourish, protect, and rejuvenate your skin.
+      <span className="text-[#888888]">
+        advanced science, our collection ensures every skin type can achieve a radiant, healthy glow. Embrace your beauty with confidence every day. Experience the ultimate in skincare with our expertly formulated products, crafted to nourish, protect, and rejuvenate your skin.
+      </span>
     </p>
-
   </div>
 </section>
 
