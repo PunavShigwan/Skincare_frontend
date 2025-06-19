@@ -17,7 +17,7 @@ The landing page has been developed using **Next.js**, **React**, **Tailwind CSS
 
 ## 🔗 Live Deployment
 
-👉 [Click here to view the deployed website](https://sixnine-assignment-pi.vercel.app/)  
+👉 [Click here to view the deployed website]
 
 
 ## 🛠️ Tech Stack Used
@@ -47,7 +47,7 @@ The landing page has been developed using **Next.js**, **React**, **Tailwind CSS
 
 | Desktop View | Mobile View |
 |--------------|-------------|
-| ![Desktop View](demo1.png) | ![Mobile View](mobile1.png) |
-| ![Desktop View](demo2.png) | ![Mobile View](mobile2.png) |
+| ![Desktop View](demo1.png) | 
+| ![Desktop View](demo2.png) | 
 
 
